@@ -23,6 +23,10 @@ Route::get('/RevolucionCircular', function () {
     return view('RevolucionCircular');
 })->name('RevolucionCircular');
 
+Route::get('/pilas', function () {
+    return view('pilas');
+})->name('pilas');
+
 Route::get('/PuntosRecoleccion', function () {
     return view('punto_recoleccion');
 })->name('PuntosRecoleccion');

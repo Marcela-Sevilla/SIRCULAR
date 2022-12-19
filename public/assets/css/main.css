@@ -134,7 +134,7 @@ main section {
   .section-header h2 {
     font-size: 30px;
   }
-  
+
   .section-header p {
     font-size: 18px;
   }
@@ -144,7 +144,7 @@ main section {
   .divider{
     padding: 20px;
   }
-  
+
   .divider .section-header{
     position: absolute;
     top: 20px;
@@ -291,7 +291,7 @@ main section {
 }
 
 /*--------------------------------------------------------------
-# Desktop Navigation 
+# Desktop Navigation
 --------------------------------------------------------------*/
 @media (min-width: 1280px) {
   .navbar {
@@ -544,7 +544,7 @@ main section {
   background-repeat: none;
   background-size: none;
   background-color: none;
-  background: hsla(0, 0%, 100%, 0.55); 
+  background: hsla(0, 0%, 100%, 0.55);
   backdrop-filter: blur(30px);
 }
 
@@ -582,7 +582,7 @@ main section {
     background-size: cover;
     background-color: var(--color-white);
   }
-  
+
 }
 
 /*--------------------------------------------------------------
@@ -845,6 +845,7 @@ main section {
   }
 }
 
+
 /*--------------------------------------------------------------
 # Sector Agua Section
 --------------------------------------------------------------*/
@@ -923,7 +924,7 @@ main section {
   }
 }
 
-@media (min-width: 1400px) { 
+@media (min-width: 1400px) {
   .sector-agua .content p {
     font-size: 25px;
   }
@@ -1341,7 +1342,30 @@ main section {
     transform: rotate(360deg);
   }
 }
-
+/*--------------------------------------------------------------
+# Puntos De Recolección page
+--------------------------------------------------------------*/
+.fondo{
+    background-image: url(../img/pexels-ron-lach-9543738.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--color-white);
+    height: 750px;
+    width: 100vw;
+}
+/*--------------------------------------------------------------
+# Pilas page
+--------------------------------------------------------------*/
+.oliva{
+    color:  var(--color-oliva) !important;
+}
+.albahaca{
+    color: var(--color-albahaca) !important;
+}
+.justify{
+    text-align:justify !important;
+}
 /*--------------------------------------------------------------
 # Revolucion Circular Page
 --------------------------------------------------------------*/
@@ -1857,7 +1881,7 @@ main section {
   .divider-footer{
     padding: 20px;
   }
-  
+
   .divider-footer .social-links{
     background: var(--color-oliva);
     position: absolute;

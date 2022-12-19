@@ -278,7 +278,7 @@
               <div class="col-lg-6 col-xl-5 col-xxl-6 cencepto">
                 <h3>La Ecolog&iacute;a Industrial y Territorial:</h3>
                 <p>
-                  Consiste en establer un modo de organizaci&oacute;n industrial en un mismo territorio caracterizado 
+                  Consiste en establer un modo de organizaci&oacute;n industrial en un mismo territorio caracterizado
                   por una gesti&oacute;n optimizada de los stocks y de los flujos de materiales, energ&iacute;a y servicios.
                 </p>
               </div>
@@ -368,7 +368,7 @@
                 </a>
                 <p>Para imaginar la magnitud de la contaminaci&oacute;n de estas pilas, basta con saber que son las causantes del...</p>
                 <div class="text-center mt-3">
-                  <a href="#" class="buy-btn shadow-sm">Leer M&aacute;s <i class="fa-solid fa-arrow-right"></i></a>
+                  <a href="{{route('pilas')}}" class="buy-btn shadow-sm">Leer M&aacute;s <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
               </div>
             </div>
@@ -412,7 +412,7 @@
           <div class="col-lg-4 mb-4 mb-lg-0">
 
             <div class="info">
-              
+
               <img src="assets/img/logo-sircular.png" alt="Logotipo Sircular" class="img-fluid mb-3">
 
               <div class="info-item d-flex">
@@ -479,7 +479,7 @@
                     Por favor ingrese su mensaje, asunto o inquietud.
                 </div>
               </div>
-              
+
               <div class="text-center mt-4"><button type="submit">Enviar <i class="bi bi-send"></i></button></div>
             </form>
           </div><!-- End Contact Form -->
@@ -530,7 +530,7 @@
           <div class="credits">
             Designed by Tecnolog&Aacute;as Virtuales - TecnoParque Nodo Atl&aacute;ntico
           </div>
-        </div> 
+        </div>
 
       </div>
     </div>
