@@ -27,6 +27,10 @@ Route::get('/pilas', function () {
     return view('pilas');
 })->name('pilas');
 
+Route::get('/gestionPilas', function () {
+    return view('gestionPilas');
+})->name('gestionPilas');
+
 Route::get('/PuntosRecoleccion', function () {
     return view('punto_recoleccion');
 })->name('PuntosRecoleccion');

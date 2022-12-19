@@ -388,7 +388,7 @@
                 </a>
                 <p>Esta demostrado por profesionales de la Dirección General de Salud Ambiental (DIGESA), los cuales explican que...</p>
                 <div class="text-center mt-3">
-                  <a href="#" class="buy-btn shadow-sm">Leer M&aacute;s <i class="fa-solid fa-arrow-right"></i></a>
+                  <a href="{{route('gestionPilas')}}" class="buy-btn shadow-sm">Leer M&aacute;s <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
               </div>
             </div>

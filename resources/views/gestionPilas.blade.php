@@ -5,7 +5,7 @@
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>Puntos Recolecci&oacute;n | Sircular</title>
+<title>Gesti&oacute;n Pilas | Sircular</title>
 <meta content="" name="description">
 <meta content="" name="keywords">
 
@@ -37,19 +37,9 @@
 <body>
 @section('navbar')
 <section class="mb-5">
-  <div class="container-fluid fondo vh-50 d-flex justify-content-center align-items-center" data-aos="fade-up">
-       <img src="./assets/img/Punto-Recoleccion.png" alt="" width="340" height="400">
-  </div>
-</section>
-<main id="main">
-
-
-<section class="container-fluid p-0 mb-5">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.5529086776723!2d-74.77267138451624!3d10.997080358087455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef43287be2572f1%3A0xee9a6af6bc7c8b3c!2sMalec%C3%B3n%20Tur%C3%ADstico%20R%C3%ADo%20Magdalena%20Barranquilla!5e0!3m2!1ses!2sco!4v1671483385202!5m2!1ses!2sco" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</section>
-
-  <!-- End Puntos De Recolección Page -->
-</main>
+    <div class="container-fluid gestion-pilas d-flex justify-content-center align-items-center" data-aos="fade-up">
+    </div>
+  </section>
 
 <!-- ======= Footer ======= -->
 <footer id="footer" class="footer">

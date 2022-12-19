@@ -1345,14 +1345,14 @@ main section {
 /*--------------------------------------------------------------
 # Puntos De Recolección page
 --------------------------------------------------------------*/
+
 .fondo{
     background-image: url(../img/pexels-ron-lach-9543738.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: var(--color-white);
-    height: 750px;
-    width: 100vw;
+    width: 100%;
 }
 /*--------------------------------------------------------------
 # Pilas page
@@ -1365,6 +1365,19 @@ main section {
 }
 .justify{
     text-align:justify !important;
+}
+
+/*--------------------------------------------------------------
+# Gestion Pilas page
+--------------------------------------------------------------*/
+.gestion-pilas{
+    background-image: url(../img/gestionPilas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--color-white);
+    height: 750px;
+    width: 100%;
 }
 /*--------------------------------------------------------------
 # Revolucion Circular Page
