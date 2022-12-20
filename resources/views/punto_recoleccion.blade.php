@@ -38,7 +38,7 @@
 @section('navbar')
 <section class="mb-5">
   <div class="container-fluid fondo vh-50 d-flex justify-content-center align-items-center" data-aos="fade-up">
-       <img src="./assets/img/Punto-Recoleccion.png" alt="" width="340" height="400">
+       <img src="./assets/img/Punto-Recoleccion.png" class="puntoRecoleccion" alt="Puntos de Recolección">
   </div>
 </section>
 <main id="main">
