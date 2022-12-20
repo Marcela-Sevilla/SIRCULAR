@@ -40,7 +40,66 @@
     <div class="container-fluid gestion-pilas d-flex justify-content-center align-items-center" data-aos="fade-up">
     </div>
   </section>
+  <!-- Gestion Pilas Main-->
+<main id="main">
+    <section class="funcionamientos pb-0 mb-5">
+        <div class="container" data-aos="fade-up">
 
+          <div class="section-pilas text-center px-3 mb-4">
+            <h3>Mala gesti&oacute;n de pilas y bater&iacute;as impacta en la salud y en el medio ambiente</h3>
+
+          </div>
+
+          <ul class="nav nav-tabs row justify-content-center">
+
+            <li class="nav-item col-auto mb-4 mb-lg-0">
+              <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+                <h4>Efectos nocivos al medio ambiente</h4>
+              </a>
+            </li><!-- End Tab 1 Nav -->
+
+            <li class="nav-item col-auto mb-4 mb-lg-0">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+                <h4>Efectos nocivos a la salud</h4>
+              </a>
+            </li><!-- End Tab 2 Nav -->
+
+          </ul>
+
+          <div class="tab-content">
+
+            <div class="tab-pane active show" id="tab-1">
+              <div class="row justify-content-center mx-0">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 border border-2 border-opacity-75 px-5 py-5 bordeado">
+
+                  <p class="mb-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolor aspernatur similique deleniti corporis, quod voluptatum. Sunt vitae molestias, et voluptas quasi natus soluta cumque libero rerum velit aperiam repellat!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, modi earum, ipsum, eveniet natus tempora et similique cumque aspernatur repellat blanditiis iure aliquam corporis laudantium eligendi tenetur consectetur! Atque, quisquam!Velit reprehenderit iste rem minus nemo exercitationem repellat facere voluptatibus molestiae, sapiente aliquam, quidem eius dicta delectus pariatur maiores ullam voluptatem magnam optio excepturi nulla. Nobis hic ducimus doloribus explicabo.
+                  </p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum at molestias minus sit eveniet nostrum distinctio, blanditiis, cupiditate quisquam tempore deleniti, debitis asperiores neque corporis harum voluptates laboriosam odit nam?</p>
+
+                </div>
+              </div>
+            </div><!-- End Tab Content 1 -->
+
+            <div class="tab-pane" id="tab-2">
+              <div class="row justify-content-center mx-0">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 border border-2 border-opacity-75 px-5 py-5 bordeado">
+
+                    <p class="mb-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolor aspernatur similique deleniti corporis, quod voluptatum. Sunt vitae molestias, et voluptas quasi natus soluta cumque libero rerum velit aperiam repellat!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, modi earum, ipsum, eveniet natus tempora et similique cumque aspernatur repellat blanditiis iure aliquam corporis laudantium eligendi tenetur consectetur! Atque, quisquam!Velit reprehenderit iste rem minus nemo exercitationem repellat facere voluptatibus molestiae, sapiente aliquam, quidem eius dicta delectus pariatur maiores ullam voluptatem magnam optio excepturi nulla. Nobis hic ducimus doloribus explicabo.
+                      </p>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum at molestias minus sit eveniet nostrum distinctio, blanditiis, cupiditate quisquam tempore deleniti, debitis asperiores neque corporis harum voluptates laboriosam odit nam?</p>
+                </div>
+              </div>
+            </div><!-- End Tab Content 2 -->
+
+          </div>
+
+        </div>
+      </section><!-- End Funcionamientos Section -->
+</main>
 <!-- ======= Footer ======= -->
 <footer id="footer" class="footer">
 

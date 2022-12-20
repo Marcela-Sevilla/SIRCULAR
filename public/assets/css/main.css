@@ -1354,6 +1354,40 @@ main section {
     background-color: var(--color-white);
     width: 100%;
 }
+@media (min-width: 360px) {.fondo{height: 235px;}
+}
+
+@media (min-width: 540px) {.fondo {height: 360px;}
+}
+
+@media (min-width: 768px) {.fondo {height: 435px;}
+}
+
+@media (min-width: 1000px) {.fondo {height: 580px;}
+}
+
+@media (min-width: 1400px) {.fondo {height: 90vh;}
+}
+
+section .fondo .puntoRecoleccion{
+    width: 20%;
+    height: 40%;
+}
+@media (min-width: 360px) {section .fondo .puntoRecoleccion{height:32%; width: 22%;}
+}
+
+@media (min-width: 540px) {section .fondo .puntoRecoleccion{height:33%; width: 25%;}
+}
+
+@media (min-width: 768px) {section .fondo .puntoRecoleccion{height:38%; width: 21%;}
+}
+
+@media (min-width: 1000px) {section .fondo .puntoRecoleccion{height:40%; width: 22%;}
+}
+
+@media (min-width: 1400px) {section .fondo .puntoRecoleccion{height:40%; width: 21%;}
+}
+
 /*--------------------------------------------------------------
 # Pilas page
 --------------------------------------------------------------*/
@@ -1376,9 +1410,51 @@ main section {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: var(--color-white);
-    height: 750px;
     width: 100%;
 }
+
+@media (min-width: 360px) {.gestion-pilas{height: 235px;}
+}
+
+@media (min-width: 540px) {.gestion-pilas{height: 360px;}
+}
+
+@media (min-width: 768px) {.gestion-pilas{height: 435px;}
+}
+
+@media (min-width: 1000px) {.gestion-pilas {height: 580px;}
+}
+
+@media (min-width: 1400px) {.gestion-pilas {height: 750px;}
+}
+
+.section-pilas h3{
+font-size: 2rem;
+font-weight: bolder;
+color: var(--color-oliva);
+}
+@media (min-width: 360px) {.section-pilas h3 {font-size: 1.8rem; }
+}
+
+@media (min-width: 540px) {.section-pilas h3 {font-size: 1.8rem;}
+}
+
+@media (min-width: 768px) {.section-pilas h3 {font-size: 2.2rem;}
+}
+
+@media (min-width: 1000px) {.section-pilas h3 {font-size: 1.9rem;}
+}
+
+@media (min-width: 1400px) {.section-pilas h3 {font-size: 2.2rem;}
+}
+@media (min-width: 768px) {.section-pilas h3 {font-size: 2.2rem;}
+}
+.bordeado{
+    border-radius: 1.5rem;
+    border-color: var(--color-oliva) !important;
+    box-shadow: 0px 0 25px rgba(var(--color-black-rgb), 0.1);
+}
+
 /*--------------------------------------------------------------
 # Revolucion Circular Page
 --------------------------------------------------------------*/
