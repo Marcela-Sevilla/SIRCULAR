@@ -348,7 +348,7 @@
                 </a>
                 <p>El uso de pilas en nuestro d&iacute;a a d&iacute;a es inevitable, pero su vida no es infinita y por eso tenemos que saber...</p>
                 <div class="text-center mt-3">
-                  <a href="#" class="buy-btn shadow-sm">Leer M&aacute;s <i class="fa-solid fa-arrow-right"></i></a>
+                  <a href="{{route('pilasContenedores')}}" class="buy-btn shadow-sm">Leer M&aacute;s <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
               </div>
             </div>
