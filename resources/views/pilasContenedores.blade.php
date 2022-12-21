@@ -46,10 +46,10 @@
     </div>
   </section>
   <main id="main">
-      <section class="container mt-3">
-        <div class="row mb-5">
-            <div class="col-lg-7 d-flex align-content-center flex-wrap">
-                     <p class="justify my-0">
+      <section class="container mt-5">
+        <div class="row m-0">
+            <div class="col-lg-7 justify-content-center align-content-center py-3">
+                     <p class="justify p-md-0">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem repellat at quo quos voluptas dolor laboriosam, totam deserunt nulla laudantium, ipsa sed vel perspiciatis ad iusto qui praesentium fugiat quis?
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum aut earum, itaque iusto, maiores sapiente possimus repudiandae necessitatibus qui eum harum sit. Ipsum similique vel aliquid nisi quisquam atque soluta.
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto illo quasi ipsa quae modi maiores rem, optio quaerat quisquam minus temporibus ex est vel? Officia assumenda obcaecati culpa est esse!
@@ -57,17 +57,20 @@
                     </p>
             </div>
             <div class="col-lg-4 img-economia d-flex flex-column justify-content-center align-items-center">
-                <h3 class="m-0">Econom&iacute;a Circular</h3>
+                <h3>Econom&iacute;a Circular</h3>
                   <img src="./assets/img/mundo-reci 2.png" alt="Economia circular">
             </div>
         </div>
-        <div class="row mb-3">
+        <div class="row m-0">
+
+
+
             <div class="col-lg-4 img-economia d-flex flex-column justify-content-center align-items-center">
                 <h3 class="m-0">Econom&iacute;a L&iacute;neal</h3>
                 <img src="./assets/img/mundo-lineal 2.png" alt="Economia circular">
           </div>
-            <div class="col-lg-7 d-flex align-content-center flex-wrap">
-                     <p class="justify my-0">
+            <div class="col-lg-7 justify-content-center align-content-center py-3">
+                     <p class="justify p-md-0">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem repellat at quo quos voluptas dolor laboriosam, totam deserunt nulla laudantium, ipsa sed vel perspiciatis ad iusto qui praesentium fugiat quis?
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum aut earum, itaque iusto, maiores sapiente possimus repudiandae necessitatibus qui eum harum sit. Ipsum similique vel aliquid nisi quisquam atque soluta.
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto illo quasi ipsa quae modi maiores rem, optio quaerat quisquam minus temporibus ex est vel? Officia assumenda obcaecati culpa est esse!
@@ -80,7 +83,78 @@
       </section>
   </main>
   <!-- ======= End Section Contendores ======= -->
+      <!-- ======= Beneficos Economía Circular Section ======= -->
+      <section class="contact">
+        <div class="container-fluid mb-5">
+          <h2 class="text-center text-white fw-bold m-0">¿Qu&eacute; beneficios tiene la econom&iacute;a circular?</h2>
+        </div>
+      </section>
+     <!-- ======= End Beneficos Economía Circular Section ======= -->
 
+     <!-- ======= cards Economía Circular Section ======= -->
+     <section id="featured-services" class="card-home mb-5">
+        <div class="container w-tamaño">
+          <div class="row gy-3 justify-content-md-center">
+
+            <div class="col-md-9 col-lg-6 d-flex mb-4 mb-lg-0" data-aos="zoom-out" data-aos-delay="400">
+                <div class="item-card position-relative shadow">
+                  <div class="icon">
+                    <img src="./assets/img/card-carrousel/" alt="">
+                  </div>
+                  <div class="texto-cartas">
+                  <h4>Protege el medio ambiente</h4>
+                  <p class="justify">Aqu&iacute; podras encontrar una geolocalización de los puntos
+                    de recolección de residuos más cercanos a tu ubicaci&oacute;n.</p>
+                </div>
+                </div>
+              </div><!-- End Item Card -->
+
+              <div class="col-md-9 col-lg-6 d-flex mb-5 mb-lg-0" data-aos="zoom-out" data-aos-delay="400">
+                  <div class="item-card position-relative shadow">
+                    <div class="icon">
+                      <img src="./assets/img/card-home/geolocalizacion.svg" alt="">
+                    </div>
+                    <div class="texto-cartas">
+                    <h4>Benefico a la econom&iacute;a local</h4>
+                    <p class="justify">Aqu&iacute; podras encontrar una geolocalización de los puntos
+                      de recolección de residuos más cercanos a tu ubicaci&oacute;n.</p>
+                    </div>
+                  </div>
+                </div><!-- End Item Card -->
+
+
+            <div class="col-md-9 col-lg-6 d-flex mb-5 mb-lg-0" data-aos="zoom-out" data-aos-delay="400">
+              <div class="item-card position-relative shadow ">
+                <div class="icon">
+                  <img src="./assets/img/card-home/geolocalizacion.svg" alt="">
+                </div>
+                <div class="texto-cartas">
+                <h4>Ayuda a fomentar el empleo</h4>
+                <p class="justify">Aqu&iacute; podras encontrar una geolocalización de los puntos
+                  de recolección de residuos más cercanos a tu ubicaci&oacute;n.</p>
+                </div>
+              </div>
+            </div><!-- End Item Card -->
+
+            <div class="col-md-9 col-lg-6 d-flex mb-5 mb-lg-0" data-aos="zoom-out" data-aos-delay="400">
+                <div class="item-card position-relative shadow ">
+                  <div class="icon">
+                    <img src="./assets/img/card-home/geolocalizacion.svg" alt="">
+                  </div>
+                  <div class="texto-cartas">
+                  <h4>Independencia de recursos</h4>
+                  <p class="justify">Aqu&iacute; podras encontrar una geolocalización de los puntos
+                    de recolección de residuos más cercanos a tu ubicaci&oacute;n.</p>
+                </div>
+            </div>
+              </div><!-- End Item Card -->
+
+          </div>
+
+        </div>
+      </section>
+
+     <!-- ======= End cards Economía Circular Section ======= -->
         <!-- ======= Footer ======= -->
         <footer id="footer" class="footer">
 

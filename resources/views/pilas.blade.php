@@ -40,20 +40,27 @@
     <!-- ======= Header ======= -->
     @section('navbar')
         <!-- End Header -->
-        <section class="container-fluid px-0 mx-0 d-flex justify-content-center">
+        <section class="onfocus">
+            <div class="container-fluid p-0" data-aos="fade-up">
 
-            <iframe src="https://www.youtube.com/embed/OVVnzAwlzd0" width="100%" height="600"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
-            </iframe>
+              <div class="row g-0 justify-content-center">
+                <div class="col-md-12 col-lg-12 video-pilas position-relative">
+                  <a href="https://www.youtube.com/embed/OVVnzAwlzd0" class="glightbox play-btn"></a>
+                </div>
+              </div>
+
+            </div>
+          </section><!-- End On Focus Section -->
+        <section class="container-fluid px-0 mx-0 d-flex justify-content-center video-play position-relative">
+
+            <a href=""  class="glightbox play-btn"></a>
         </section>
 
        <main id="main">
             <section class="container justify">
                 <div data-aos="fade-up" data-aos-delay="100">
                     <h1 class="oliva text-center">Sobre las pilas</h1>
-                    <h3 class="albahaca mt-5 mb-3 text-center">¿Por qu&eacute; seguimos tirando las pilas al contenedor
+                    <h3 class="albahaca mt-3 text-center">¿Por qu&eacute; seguimos tirando las pilas al contenedor
                         org&aacute;nico?</h3>
                     <p class="mb-3">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellendus blanditiis, enim

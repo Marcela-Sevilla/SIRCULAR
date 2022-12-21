@@ -139,7 +139,7 @@
         </div>
     </section>
   </main>
-    
+
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
 
@@ -179,7 +179,7 @@
           <div class="credits">
             Designed by Tecnolog&Aacute;as Virtuales - TecnoParque Nodo Atl&aacute;ntico
           </div>
-        </div> 
+        </div>
 
       </div>
     </div>
