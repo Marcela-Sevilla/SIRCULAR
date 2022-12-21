@@ -1256,7 +1256,7 @@ main section {
   font-weight: 500;
 }
 
-.contact .php-email-form {
+ .php-email-form {
   width: 100%;
   background: var(--color-white);
   padding: 30px;
@@ -1264,16 +1264,16 @@ main section {
   border: solid 2px var(--color-oliva);
 }
 
-.contact .php-email-form .logo{
+.php-email-form .logo{
   position: absolute;
   top: -70px;
 }
 
-.contact .php-email-form .form-group {
+ .php-email-form .form-group {
   padding-bottom: 8px;
 }
 
-.contact .php-email-form label{
+.php-email-form label{
   color: var(--color-albahaca);
   font-size: 18px;
   font-weight: 600;
@@ -1281,32 +1281,32 @@ main section {
   margin-bottom: 8px;
 }
 
-.contact .php-email-form input[type=text],
-.contact .php-email-form input[type=email],
-.contact .php-email-form textarea {
+.php-email-form input[type=text],
+.php-email-form input[type=email],
+.php-email-form textarea {
   border-radius: 30px;
   border: solid 2px var(--color-oliva);
   font-size: 15px;
 }
 
-.contact .php-email-form input[type=text]:focus,
-.contact .php-email-form input[type=email]:focus,
-.contact .php-email-form textarea:focus {
+.php-email-form input[type=text]:focus,
+.php-email-form input[type=email]:focus,
+.php-email-form textarea:focus {
   border-color: var(--color-albahaca);
 }
 
-.contact .php-email-form input[type=text],
-.contact .php-email-form input[type=email] {
+.php-email-form input[type=text],
+.php-email-form input[type=email] {
   height: 48px;
   padding: 10px 15px;
 }
 
-.contact .php-email-form textarea {
+.php-email-form textarea {
   padding: 10px 12px;
   height: 200px;
 }
 
-.contact .php-email-form button[type=submit] {
+.php-email-form button[type=submit] {
   background: var(--color-albahaca);
   border: 0;
   padding: 10px 40px;
@@ -1316,13 +1316,13 @@ main section {
   font-size: 20px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.php-email-form button[type=submit]:hover {
   background: rgba(var(--color-oliva-rgb), 0.85);
 }
 
 @media (min-width:768px){
-  .contact .php-email-form .logo{top: -80px;}
-  .contact .php-email-form{padding: 40px;}
+.php-email-form .logo{top: -80px;}
+.php-email-form{padding: 40px;}
 }
 
 @-webkit-keyframes animate-loading {
@@ -1348,46 +1348,49 @@ main section {
 # Puntos De Recolección page
 --------------------------------------------------------------*/
 
-.fondo{
+.fondo {
     background-image: url(../img/pexels-ron-lach-9543738.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: var(--color-white);
     width: 100%;
-}
-@media (min-width: 360px) {.fondo{height: 235px;}
-}
-
-@media (min-width: 540px) {.fondo {height: 360px;}
+    height: 40vh;
 }
 
-@media (min-width: 768px) {.fondo {height: 435px;}
+section .fondo .puntoRecoleccion {
+    width: 120px;
+    height: 120px;
 }
 
-@media (min-width: 1000px) {.fondo {height: 580px;}
+@media (min-width: 360px) {
+    .fondo {
+        height: 235px;
+    }
+    section .fondo .puntoRecoleccion {
+        width: 180px;
+        height: 180px;
+    }
 }
 
-@media (min-width: 1400px) {.fondo {height: 90vh;}
+@media (min-width: 768px) {
+    .fondo {
+        height: 435px;
+    }
+    section .fondo .puntoRecoleccion {
+        width: 240px;
+        height: 240px;
+    }
 }
 
-section .fondo .puntoRecoleccion{
-    width: 20%;
-    height: 40%;
-}
-@media (min-width: 360px) {section .fondo .puntoRecoleccion{height:32%; width: 22%;}
-}
-
-@media (min-width: 540px) {section .fondo .puntoRecoleccion{height:33%; width: 25%;}
-}
-
-@media (min-width: 768px) {section .fondo .puntoRecoleccion{height:38%; width: 21%;}
-}
-
-@media (min-width: 1000px) {section .fondo .puntoRecoleccion{height:40%; width: 22%;}
-}
-
-@media (min-width: 1400px) {section .fondo .puntoRecoleccion{height:40%; width: 21%;}
+@media (min-width: 1000px) {
+    .fondo {
+        height: 70vh;
+    }
+    section .fondo .puntoRecoleccion {
+        width: 300px;
+        height: 300px;
+    }
 }
 
 /*--------------------------------------------------------------

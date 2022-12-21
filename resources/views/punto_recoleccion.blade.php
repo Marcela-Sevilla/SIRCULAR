@@ -41,12 +41,48 @@
        <img src="./assets/img/Punto-Recoleccion.png" class="puntoRecoleccion" alt="Puntos de Recolección">
   </div>
 </section>
+
 <main id="main">
 
+    <section class="puntosMapa container-fluid">
+        <div class="row mx-md-3 mx-lg-5">
 
-<section class="container-fluid p-0 mb-5">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.5529086776723!2d-74.77267138451624!3d10.997080358087455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef43287be2572f1%3A0xee9a6af6bc7c8b3c!2sMalec%C3%B3n%20Tur%C3%ADstico%20R%C3%ADo%20Magdalena%20Barranquilla!5e0!3m2!1ses!2sco!4v1671483385202!5m2!1ses!2sco" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</section>
+            <div class="col-lg-6 h-100 mb-5 mb-lg-0">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15665.437010220685!2d-74.79378656005808!3d11.011649424594054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sbarranquilla%20malecon!5e0!3m2!1ses!2sco!4v1671648798766!5m2!1ses!2sco"
+                style="border:0; width:100%;" height="500px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="col-lg-6 pt-5 pt-lg-0">
+                <form class="php-email-form needs-validation"  novalidate>
+                    @csrf
+
+                    <div class="position-relative d-flex justify-content-center">
+                      <div class="text-center logo"><img src="assets/img/isotipo-sircular.png" width="80px" height="80px" alt="Logo Sircular"></div>
+                    </div>
+
+                    <div class="row">
+
+                      <div class="form-group mt-3">
+                        <label for="direccion">Direcci&oacute;n:</label>
+                        <input type="text" name="direccion" class="form-control" id="direccion" placeholder="Ingresa la direcci&oacute;n" required>
+                        <div class="invalid-feedback ms-2">
+                          Este Campo es Requerido.
+                        </div>
+                      </div>
+
+                    <div class="form-group mt-3">
+                      <label for="descripcion">Descripci&oacute;n de Residuos:</label>
+                      <textarea class="form-control" name="descripcion" id="descripcion" placeholder="Escribe una breve descripci&oacute;n de los materiales reciclables." required></textarea>
+                      <div class="invalid-feedback ms-2">
+                        Este Campo es Requerido.
+                      </div>
+                    </div>
+
+                    <div class="text-center mt-4"><button type="submit">Agregar<i class="bi bi-send ms-1"></i></button></div>
+                  </form>
+            </div>
+        </div>
+    </section>
 
   <!-- End Puntos De Recolección Page -->
 </main>

@@ -99,7 +99,7 @@
             <div class="col-md-9 col-lg-6 d-flex mb-4 mb-lg-0" data-aos="zoom-out" data-aos-delay="400">
                 <div class="item-card position-relative shadow">
                   <div class="icon">
-                    <img src="./assets/img/card-carrousel/" alt="">
+                    <img src="./assets/img/cards-carrousel/respetuoso-del-medio-ambiente (1).png" alt="">
                   </div>
                   <div class="texto-cartas">
                   <h4>Protege el medio ambiente</h4>
@@ -112,7 +112,7 @@
               <div class="col-md-9 col-lg-6 d-flex mb-5 mb-lg-0" data-aos="zoom-out" data-aos-delay="400">
                   <div class="item-card position-relative shadow">
                     <div class="icon">
-                      <img src="./assets/img/card-home/geolocalizacion.svg" alt="">
+                      <img src="./assets/img/cards-carrousel/mercado (1).png" alt="">
                     </div>
                     <div class="texto-cartas">
                     <h4>Benefico a la econom&iacute;a local</h4>
@@ -126,7 +126,7 @@
             <div class="col-md-9 col-lg-6 d-flex mb-5 mb-lg-0" data-aos="zoom-out" data-aos-delay="400">
               <div class="item-card position-relative shadow ">
                 <div class="icon">
-                  <img src="./assets/img/card-home/geolocalizacion.svg" alt="">
+                  <img src="./assets/img/cards-carrousel/plan-de-negocios (1).png" alt="">
                 </div>
                 <div class="texto-cartas">
                 <h4>Ayuda a fomentar el empleo</h4>
@@ -139,7 +139,7 @@
             <div class="col-md-9 col-lg-6 d-flex mb-5 mb-lg-0" data-aos="zoom-out" data-aos-delay="400">
                 <div class="item-card position-relative shadow ">
                   <div class="icon">
-                    <img src="./assets/img/card-home/geolocalizacion.svg" alt="">
+                    <img src="./assets/img/cards-carrousel/economia-circular (1).png" alt="">
                   </div>
                   <div class="texto-cartas">
                   <h4>Independencia de recursos</h4>
